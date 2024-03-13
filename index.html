@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <style>
+        form,body,a,h1{
+            background-color: lightblue;
+            margin-left:20%;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Register Page</h1>
+    <form action="https://10000coders.co/">
+        <label for="fname">First Name :</label>
+        <input type="text" id="fname" name="fname" required><br><br>
+
+        <label for="lname">Last Name :</label>
+        <input type="text" id="lname" name="lname" required><br><br>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="pass">New Password : </label>
+        <input type="password" name="pass" id="pass" required><br><br>
+
+        <label for="pass1">Confirm Password : </label>
+        <input type="password" name="pass1" id="pass1" required><br><br>
+
+        <label for="mobile">Mobile Number :</label>
+        <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required><br><br>
+
+        <label for="mobile1">Alternate Mobile Number :</label>
+        <input type="tel" id="mobile1" name="mobile1" pattern="[0-9]{10}" required><br><br>
+
+        <p>Are you a Fresher?</p>
+        <input type="radio" name="answer" id="r1" required><label>Yes</label>
+        <input type="radio" name="answer" id="r2" required><label>No</label><br><br>
+
+        <p>Skills that you obtained</p>
+        <input type="checkbox" name="html" id="c1"><label for="c1">HTML</label><br>
+        <input type="checkbox" name="css" id="c2"><label for="c2">CSS</label><br>
+        <input type="checkbox" name="js" id="c2"><label for="c3">JavaScript</label><br><br>
+
+        <p>Passout year:</p>
+        <select required>
+            <option>2024</option>
+            <option>2023</option>
+            <option>2022</option>
+            <option>2021</option>
+        </select><br><br>
+
+        <label for="add">Permanent Address:</label><br>
+        <textarea rows="15" cols="30" id="add" required></textarea><br>
+
+        <input type="submit" value="Register" name="Register" >
+    </form>
+    <a href="./Login_page.html">User already have an account</a>
+    
+</body>
+</html>
